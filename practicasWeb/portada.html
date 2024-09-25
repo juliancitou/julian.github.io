@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+            display: inline-block;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .title {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .integrantes {
+            margin: 20px 0;
+            width: 100%;
+        }
+        .integrantes table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        .integrantes th, .integrantes td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #b50000;
+            color: white;
+        }
+        .docente, .fecha {
+            margin-top: 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabecera con imágenes -->
+        <div class="header">
+            <img src="LOGO-VERTICAL-TECNM.png" alt="Gobierno de México">
+            <img src="logotec.png" alt="Secretaría de Educación">
+            <img src="LOGO2.png" alt="Instituto Tecnológico">
+        </div>
+        
+        <!-- Título de la portada -->
+        <div class="title">
+            <h2>MATERIA<br>Programación web</h2>
+            <h2>UNIDAD 2<br>PORTADA</h2>
+        </div>
+        
+        <!-- Integrantes -->
+        <div class="integrantes">
+            <table>
+                <thead>
+                    <tr class="highlight">
+                        <th>Integrantes</th>
+                        <th>Número de control</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Julián García Villegas</td>
+                        <td>22690208</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Información del docente -->
+        <div class="docente">
+            <h2>DOCENTE<br>Víctor Manuel Abundis Espinosa</h2>
+        </div>
+        
+        <!-- Fecha -->
+        <div class="fecha">
+            <h2>FECHA<br>16 de septiembre del 2024</h2>
+        </div>
+    </div>
+</body>
+</html>
